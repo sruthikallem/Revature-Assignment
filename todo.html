@@ -56,12 +56,12 @@
             let task = document.getElementById("todoInput").value;
             if (task !== "") {
                 todo.push(task);
-                displayTodos();
+                displayTodo();
                 document.getElementById("todoInput").value = "";
             }
         }
 
-        function displayTodos(){
+        function displayTodo(){
             let list = document.getElementById("todoList");
             list.innerHTML = "";
 
@@ -73,4 +73,5 @@
         }
     </script>
 </body>
+
 </html>
